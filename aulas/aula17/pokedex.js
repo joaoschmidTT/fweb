@@ -18,7 +18,7 @@ const contador = '';
 const audiopokemon = document.querySelector('#som-pokemon')
 const input = document.querySelector('#input-name')
 const form = document.querySelector('.busca')
-const quilos =  0.45359237 
+const quilos =  0.453592
 
 
 let idpokemon = 1;
@@ -35,7 +35,7 @@ const showPokemon = async (pokemon) => {
     idpokemon = datapokemon.id;
     imagem.src = datapokemon.sprites.front_default;
     nomepokemon.innerHTML = datapokemon.name;
-    pesopokemon.innerHTML = datapokemon.weight * quilos;
+    pesopokemon.innerHTML = datapokemon.weight;
     
     
     

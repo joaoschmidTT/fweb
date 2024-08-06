@@ -1,24 +1,24 @@
 main {
-    width: 20%;
-    height: 30%;
+    width: 20%;       
+    height: 30%; /*tamanho*/
     margin-right: auto;
     margin-left: auto;
 }
 
 
-.container {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    background-color: rgb(109, 109, 109);
-    margin: 30px 0;
+.container {      
+    display: grid; /*layouets baseados em grid*/
+    grid-template-columns: repeat(4, 1fr); /*tamanho de colunas*/
+    background-color: rgb(10, 177, 163);
+    margin: 30px 0; /*margem*/
     padding-left: 20px;
     padding-right: 20px;
     padding-top: 30px;
-    padding-bottom: 40px;
-    border-radius: 20px;
+    padding-bottom: 40px; 
+    border-radius: 20px; /*arrendodar a borda*/
 }
 
 #display {
     margin: 10px 0;
-    text-align: center;
+    text-align: center; /*centrar algo*/
 }

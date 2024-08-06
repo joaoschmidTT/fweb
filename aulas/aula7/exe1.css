@@ -1,13 +1,13 @@
 .container{
-    width: 90;
-    margin-right: auto;
+    width: 90;     /*largura*/                       
+    margin-right: auto; /*definir a margem*/ 
     margin-left: auto;
-    position: relative;
-    font-size: 40px;
+    position: relative; /*basicamente deixar se movimentar*/ 
+    font-size: 40px; /*tamanho da font*/ 
 }
 
-.container a[href*=inter]{
-     color: red;
+.container a[href*=inter]{ /*usado para achar a palvra inter */ 
+     color: red; /*cor*/ 
 }
 
 .container a[href*=max]{

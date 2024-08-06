@@ -53,7 +53,7 @@ height: 100%;
     margin: 10px 0;
     padding: 10px;
     border-radius: 20px;
-    box-shadow: inset 10px 10px black;
+    box-shadow: inset 3px 3px black;
     
 }
 
@@ -65,7 +65,7 @@ height: 100%;
 .aula1{
     float:left;
     background-color: rgb(26, 219, 58);
-    background: linear-gradient( white, grey );
+    background: linear-gradient( white, rgb(107, 5, 5) );
 
 }
 
@@ -159,7 +159,7 @@ footer{
 }
 
 .painel li:hover{
-  box-shadow: 10px 10px black;
+  box-shadow: 10px 10px rgb(163, 12, 12);
   transition: 0.7s;
   background-color: transparent;
   transform: scale(1.2) rotate(-5deg);
@@ -175,4 +175,28 @@ main{
     height: 100px;
     padding-top: 0%;
     
+}
+
+
+#livro{
+width: 50px;
+text-align: center;
+}
+
+
+#pokedex{
+    position: relative;
+    left:  5%;
+    padding-top: 70%;
+    color: red;
+}
+
+#calculadora{
+    width: 50px;
+    text-align: center;
+}
+
+#calculadora2{
+    position: relative;
+    text-align: right;
 }

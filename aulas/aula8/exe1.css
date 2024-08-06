@@ -19,13 +19,13 @@
 }
 
 a:visited{
-    background-color: red;
+    background-color: red; /*o site ja foi vicitado*/
 }
 
 a:active{
-    background-color: green;
+    background-color: green;  /*o site pode ser acessado*/
 }
 
 a:hover{
-    background-color: aqua;
+    background-color: aqua; /*passar o mouse*/
 }

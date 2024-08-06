@@ -1,4 +1,4 @@
-*{
+*{ /*serve para tudo*/
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -11,7 +11,7 @@ html,body{
 }
 main{
     margin-top: 10px;
-    display: inline-block;
+    display: inline-block; /*deixar na mesma linha*/
     padding: 15px;
 }
 
@@ -31,7 +31,7 @@ main{
 }
 
 .pokemon-data1{
-    position: absolute;
+    position: absolute; 
     bottom: 41%;
     left: 30%;
 }
@@ -54,7 +54,7 @@ main{
 .pokemon-data2{
     position: absolute;
     top: 70%;
-    right: 55%;
+    right: 55%; 
 
 }
 
@@ -63,11 +63,11 @@ main{
 
     
     position: absolute;
-    top: 92%;
+    top: 92%;  /*definndi a posiçao*/
     right: 2%;
     width: 65%;
     display: flex;
-    gap: 2px;
+    gap: 2px; /*usado para defidni o espaçamento no container*/
 
 }
 

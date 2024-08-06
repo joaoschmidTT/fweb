@@ -1,6 +1,6 @@
 /*funcao que irar criar alerta de qualquer text*/
 
-function mostraAlert(texto){
+function mostraAlert(texto){                          
     alert(texto)
 }
 
