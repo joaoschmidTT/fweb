@@ -1,0 +1,115 @@
+.container{
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+}
+
+.menu-opçoes ul{
+    font-size: 20px;
+    color: red;
+    padding: 30px;
+}
+
+.menu-opçoes{
+position: absolute;
+top: 0px;
+right: 0px;
+
+}
+
+.menu-opçoes ul li{
+    display: inline;
+    margin-left: 100px;
+}
+
+#inter{
+width: 10%;
+height: 10%;
+
+}
+
+.busca, .menu-conteudo{
+    background-color: red;
+    font-weight: bold;
+    text-transform: uppercase;
+    width: 30%;
+    margin-right: 10px;
+    float: left;
+
+    
+}
+
+
+#imagemlupa{
+    width: 2%;
+    height: auto;
+}
+
+.busca h2
+.busca form
+.menu-conteudo h2{
+    margin: 10px;
+}
+
+.menu-conteudo li{
+    background-color: white;
+    margin-bottom: 1px;
+    padding: 5px 10px;
+}
+
+.menu-conteudo a{
+      color: red;
+}
+
+.menu-conteudo{
+    clear: left;
+    margin-top: 10px;
+    padding-bottom: 10px;
+}
+
+.busca input{
+    vertical-align: middle;
+}
+
+.destaque{
+    margin-top: 10px
+}
+
+.busca input[type=search]{
+    width: 170px;
+}
+
+.menu-conteudo li ul{
+    display: none;
+}
+
+.menu-conteudo li:hover ul{
+    display: block;
+}
+
+.menu-conteudo ul ul li{
+    background-color: white;
+}
+
+
+.menu-conteudo li li a::before{
+    content: '<';
+}
+
+.menu-conteudo ul li a::after{
+        content: '>';
+}
+
+.busca{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+#vegeta{
+
+   
+    padding-left: 50%;
+    position: absolute;
+    padding-bottom: 10%;
+}

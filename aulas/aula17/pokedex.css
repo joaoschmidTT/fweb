@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+html,body{
+    background-color: green;
+    text-align: center;
+}
+main{
+    margin-top: 10px;
+    display: inline-block;
+    padding: 15px;
+}
+
+#imgpokedex{
+    width: 100%;
+    max-width: 425px;
+}
+
+.container{
+    position: relative;
+}
+
+#imgpokemon{
+    position: absolute;
+    bottom: 50%;
+    left: 30%;
+}
+
+.pokemon-data1{
+    position: absolute;
+    bottom: 41%;
+    left: 30%;
+}
+
+.busca{
+    position: absolute;
+    bottom: 33%;
+    left: 11%;
+    width: 70%;
+
+}
+#input-name{
+    width: 100%;
+    padding: 3px;
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: -3px 4px 0 grey;
+}
+
+.pokemon-data2{
+    position: absolute;
+    top: 70%;
+    right: 55%;
+
+}
+
+
+.buttons{
+
+    
+    position: absolute;
+    top: 92%;
+    right: 2%;
+    width: 65%;
+    display: flex;
+    gap: 2px;
+
+}
+
+.button{
+      width: 40%;
+      border: 2px solid black;
+      border-radius: 6px;
+      box-shadow: -3px 4px 0 grey;
+    
+    }
+
+
+

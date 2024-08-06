@@ -1,0 +1,19 @@
+.container{
+    width: 90;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+    font-size: 40px;
+}
+
+.container a[href*=inter]{
+     color: red;
+}
+
+.container a[href*=max]{
+    color: black;
+}
+
+.container a[href*=github]{
+    color: green;
+}
